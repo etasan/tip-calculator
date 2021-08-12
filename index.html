@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Bahşiş Uygulaması</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h1 class="p1">BÖL</h1>
+      <h1 class="p2">ÜCÜ</h1>
+    </div>
+    <div class="app">
+      <div class="input">
+        <div class="bill">
+          <h3 class="bill_title">Hesap</h3>
+          <input class="bill_input" type="number">
+        </div>
+        <div class="selection">
+          <h3 class="selection_title">Bahşiş Oranı %</h3>
+          <div class="selection_button">
+            <button value="5">5%</button>
+            <button value="10">10%</button>
+            <button value="15">15%</button>
+            <button value="25">25%</button>
+            <button value="50">50%</button>
+            <input class="selection_input" type="number" placeholder="Özel">
+          </div>
+        </div>
+        <div class="people">
+          <h3 class="people_title">Kişi Sayısı</h3>
+          <input class="people_input" type="number" min="1">
+        </div>
+      </div>
+      <div class="output">
+        <div class="output_text">
+          <div class="tipAmount">
+            <div class="tipAmount_text">
+              <h3>Bahşiş Miktarı</h3>
+              <h4>/ kişi</h4>
+            </div>
+            <div class="tipAmount_number">
+              <p><span>&#8378</span>0.00</p>
+            </div>
+          </div>
+          <div class="total">
+            <div class="total_text">
+              <h3>Toplam</h3>
+              <h4>/ kişi</h4>
+            </div>
+            <div class="total_number">
+              <p><span>&#8378</span>0.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="output_button">
+          <button>SIFIRLA</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
