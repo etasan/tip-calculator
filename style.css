@@ -199,15 +199,16 @@ h4 {
   transition: all .2s ease-in-out;
 }
 
-.selection_button button:hover {
-  background: #003a3d;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.selection_button button:active {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+@media (min-width: 64em) {
+  .selection_button button:hover {
+    background: #003a3d;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .selection_button button:active {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 .selection_button input {
@@ -337,15 +338,16 @@ h4 {
   transition: all .1s ease-in-out;
 }
 
-.output_button button:hover {
-  background: #6b8c8e;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.output_button button:active {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+@media (min-width: 64em) {
+  .output_button button:hover {
+    background: #6b8c8e;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  .output_button button:active {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 .tipAmount {
